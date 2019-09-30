@@ -11,6 +11,7 @@ int main(){
     S = (S + factorial)%MOD;
   }
   printf("%d\n", S % 1000000);
-  printf("Time Used = %.3lf", (double)clock() / CLOCKS_PER_SEC);
+  //printf("Time Used = %.3lf", (double)clock() / CLOCKS_PER_SEC);
+  //using much time - so make some tests and find the pattern of these numbers
   return 0;
 }
